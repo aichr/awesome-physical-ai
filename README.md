@@ -155,7 +155,6 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 - [Physical AI for Science](https://github.com/labclaw/awesome-physical-ai-for-science) - AI in scientific discovery
 - [Awesome 3D Gaussian Splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting) - 3D GS for robotics
-- [Awesome Robot Learning](https://github.com/arkulpa/awesome-robot-learning) - Robot learning resources
 
 ### Hands-On Tutorials
 
