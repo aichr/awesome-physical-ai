@@ -22,11 +22,24 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### Foundation Models for Robotics
 
+- **[Physical Intelligence π0](https://arxiv.org/abs/2410.24164)** - Vision-Language-Action flow model for general robot control (10k+ hours robot data)
+- **[Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054)** - VLA model with open-world generalization for mobile manipulation
+- **[OpenPi](https://github.com/Physical-Intelligence/openpi)** - Official implementation and checkpoints from Physical Intelligence
 - **[RT-2: Vision-Language-Action Models](https://robotics-transformer2.github.io/)** - Google DeepMind's VLA model that learns from web and robotics data
 - **[RT-1: Robotics Transformer](https://arxiv.org/abs/2211.09417)** - Model trained on multi-task robot demonstrations
 - **[Open X-Embodiment](https://robotics-transformer-x.github.io/)** - RT-X: Generalist robot policies from 22 diverse robot platforms
 - **[PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io)** - Google's embodied multimodal language model
 - **[Octo: Open-Source Generalist Robot Policy](https://octo-models.github.io/)** - Transformer-based diffusion policy pretrained on 800k robot episodes
+
+### Industry & Research Labs
+
+- **[Nvidia GEAR Lab](https://research.nvidia.com/labs/gear/)** - Generalist Embodied Agent Research building foundation models for embodied agents
+- **[GR00T N1](https://research.nvidia.com/labs/gear/gr00t/)** - Nvidia's general-purpose foundation model for humanoid robots
+- **[GR00T N1.5](https://research.nvidia.com/labs/gear/gr00t-n1_5/)** - Upgraded version with improved architecture and data
+- **[GR00T N1.6](https://research.nvidia.com/labs/gear/gr00t-n1_6/)** - Latest version of GR00T foundation model
+- **[Amazon DeepFleet](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model)** - Amazon's foundation model for robotic fleet coordination (1M+ robots)
+- **[Amazon Blue Jay](https://www.aboutamazon.com/news/operations/amazon-delivering-future-2025-online-shopping-speed-delivery)** - Amazon's latest robotics and AI technology
+- **[Physical Intelligence](https://www.pi.website/)** - Company building generalist robot models (π0, π0.5)
 
 ### World Models & Simulation
 
@@ -115,6 +128,7 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 - [Unitree Robotics](https://github.com/unitreerobotics) - Quadruped robots (Go1, Go2, Ali)
 - [Agility Robotics - Digit](https://github.com/AgilityRobotics) - Humanoid robot for logistics
 - [Apollo Robot](https://apollo.auto/developer) - Apollo humanoid robot
+- [Amazon Robotics](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model) - 1M+ robots deployed, DeepFleet foundation model
 
 ### Mobile Manipulation
 
@@ -126,6 +140,8 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 - [MIT CSAIL](https://csail.mit.edu) - Computer Science and AI Lab
 - [Google DeepMind Robotics](https://research.google/robotics/) - Robotics research
 - [Berkeley RAIL Lab](https://rail-berkeley.github.io/) - Robot Autonomy and Interactive Learning
+- [Nvidia GEAR Lab](https://research.nvidia.com/labs/gear/) - Generalist Embodied Agent Research
+- [Physical Intelligence](https://www.pi.website/) - Building generalist robot foundation models
 
 ---
 
