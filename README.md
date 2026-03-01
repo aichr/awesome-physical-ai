@@ -155,7 +155,8 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 - [ROS Discourse](https://discourse.ros.org) - ROS community
 - [r/robotics](https://reddit.com/r/robotics) - Reddit robotics
-- [r/MLOS](https://reddit.com/r/MLOS) - Machine learning for robotics
+- [r/ROS](https://reddit.com/r/ROS) - Robot Operating System community
+- [r/MachineLearning](https://reddit.com/r/MachineLearning) - Machine learning discussions
 
 ### Conferences & Events
 
