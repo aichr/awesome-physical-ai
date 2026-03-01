@@ -61,7 +61,6 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 ### Multi-Modal Understanding
 
 - **[VoxPoser: Composable 3D Value Maps](https://voxposer.github.io)** - Zero-shot robotic manipulation with VLMs
-- **[MVP: Multi-View Prompting](https://multiviewpenguin.github.io)** - Zero-shot robot execution from multi-view prompts
 
 ---
 
@@ -150,7 +149,7 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 ### University Courses
 
 - [Stanford CS 224R: Machine Learning for Robots](https://cs224r.stanford.edu) - Deep dive into robot learning
-- [MIT 6.5940: Foundation Models for Decision Making](https://foundation-model-decision-making.github.io) - LLM/VLM reasoning for robotics
+- [MIT Foundation Models & Decision Making](https://ocw.mit.edu/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/) - MIT OpenCourseWare on foundation models
 
 ### Online Resources
 
@@ -160,7 +159,8 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### Hands-On Tutorials
 
-- [Isaac Lab Documentation](https://isaaclab.readthedocs.io/en/latest/) - NVIDIA Isaac Lab tutorials
+- [Isaac Lab Documentation](https://developer.nvidia.com/isaac/lab) - NVIDIA Isaac Lab tutorials
+- [Isaac Lab GitHub](https://github.com/isaac-sim/IsaacLab) - Source code and examples
 - [LeRobot Tutorial](https://huggingface.co/learn/lerobot) - Hugging Face LeRobot course
 
 ---
