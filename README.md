@@ -1,5 +1,7 @@
 # Awesome Physical AI
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 > A curated collection of resources for Physical AI — where robotics, machine learning, and embodied intelligence converge to build intelligent physical systems.
 
 Physical AI refers to AI systems that can perceive, reason about, and interact with the physical world. This includes robot learning, manipulation, navigation, embodied AI, world models, simulation, and more.
