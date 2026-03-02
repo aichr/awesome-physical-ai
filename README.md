@@ -1,6 +1,7 @@
 # Awesome Physical AI
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Star History](https://img.shields.io/badge/Star%20History-⌛+gold?style=flat&logo=github)](https://star-history.com/#aichr/awesome-physical-ai)
 
 > A curated collection of resources for Physical AI — where robotics, machine learning, and embodied intelligence converge to build intelligent physical systems.
 
@@ -251,6 +252,12 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 | 💻 | Open Source Code |
 | 🤖 | Hardware-Verified (tested on real robots) |
 | 📚 | Awesome List / Collection |
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=aichr/awesome-physical-ai&type=Date)](https://star-history.com/#aichr/awesome-physical-ai)
 
 ---
 
