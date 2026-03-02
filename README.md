@@ -26,20 +26,19 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 
 ### Industry Models
 
-- [Nvidia GR00T](https://research.nvidia.com/labs/gear/gr00t-n1_6/) - Foundation model for humanoid robots.
-- [Physical Intelligence π0](https://arxiv.org/abs/2410.24164) - VLA flow model with 10k+ hours robot data. Code: [openpi](https://github.com/Physical-Intelligence/openpi)
-- [Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054) - VLA with open-world generalization.
+- [Nvidia GR00T](https://research.nvidia.com/labs/gear/gr00t-n1_6/) 🤖 - Foundation model for humanoid robots.
+- [Physical Intelligence π0](https://arxiv.org/abs/2410.24164) 📄 - VLA flow model with 10k+ hours robot data. 💻 [Code](https://github.com/Physical-Intelligence/openpi)
+- [Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054) 📄 - VLA with open-world generalization.
 - [Gemini Robotics](https://deepmind.google/models/gemini-robotics/) - Google's multimodal reasoning for robots.
 
 ### Academic Papers
 
-- **RT-2** - VLA model learning from web and robotics data. [Demo](https://robotics-transformer2.github.io/)
-- **RT-1** - Robotics Transformer for real-world control. [Paper](https://arxiv.org/abs/2212.06817)
-- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - RT-X: Generalist policies from 22 platforms.
-- [PaLM-E](https://palm-e.github.io) - Embodied multimodal language model.
-- [Octo](https://octo-models.github.io/) - Open-source diffusion policy with 800k episodes. Code: [octo](https://github.com/octo-models/octo)
-- [LingBot-VLA](https://arxiv.org/abs/2601.18692) - Trained on 20k hours real robot data, 261 samples/sec.
-- [Recursive Belief VLA](https://arxiv.org/abs/2602.20659) - Belief-centric architecture for task tracking.
+- [RT-2](https://robotics-transformer2.github.io/) 🎬 - VLA model learning from web and robotics data.
+- [RT-1](https://arxiv.org/abs/2212.06817) 📄 - Robotics Transformer for real-world control.
+- [PaLM-E](https://palm-e.github.io) 📄 - Embodied multimodal language model.
+- [Octo](https://octo-models.github.io/) 📄 💻 - Open-source diffusion policy with 800k episodes.
+- [LingBot-VLA](https://arxiv.org/abs/2601.18692) 📄 - Trained on 20k hours real robot data, 261 samples/sec.
+- [Recursive Belief VLA](https://arxiv.org/abs/2602.20659) 📄 - Belief-centric architecture for task tracking.
 
 ---
 
@@ -66,10 +65,10 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 
 ## Datasets
 
-- [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment) - 1M+ trajectories, 80+ embodiments.
+- [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment) - 🤖 1M+ trajectories, 80+ embodiments.
 - [BridgeData V2](https://github.com/rail-berkeley/bridge_data_v2) - Large-scale manipulation from Berkeley.
-- [ManiSkill](https://github.com/haosulab/ManiSkill) - SAPIEN manipulation benchmark.
-- [CALVIN](https://github.com/Mees/calvin) - Multi-task manipulation.
+- [ManiSkill](https://github.com/haosulab/ManiSkill) 📊 - SAPIEN manipulation benchmark.
+- [CALVIN](https://github.com/Mees/calvin) 📊 - Multi-task manipulation.
 - [RT-1 Dataset](https://blog.google/technology/ai/rt-1-robotics-transformer/) - Google's robot data.
 
 ---
@@ -86,9 +85,9 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 
 ### General-Purpose
 
-- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) - NVIDIA GPU-accelerated robot learning. Docs: [isaac/lab](https://developer.nvidia.com/isaac/lab)
+- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) 🤖 💻 - NVIDIA GPU-accelerated robot learning.
 - [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) - Generative world for robotics.
-- [MuJoCo](https://github.com/deepmind/mujoco) - Multi-Joint Dynamics with Contact.
+- [MuJoCo](https://github.com/deepmind/mujoco) 📄 - Multi-Joint Dynamics with Contact.
 - [PyBullet](https://github.com/bulletphysics/bullet3) - Physics simulation.
 - **Gymnasium** - Standard RL API. [GitHub](https://github.com/Farama-Foundation/Gymnasium)
 
