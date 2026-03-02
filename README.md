@@ -40,9 +40,7 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 - **[OpenPi](https://github.com/Physical-Intelligence/openpi)** - Official implementation from Physical Intelligence
 - **[Gemini Robotics](https://deepmind.google/models/gemini-robotics/)** - Google's Gemini for robotics
 - **[Gemini Robotics-ER 1.5](https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/)** - Embodied reasoning model for planning in physical environments
-- **[Nvidia GR00T N1](https://research.nvidia.com/labs/gear/gr00t/)** - Foundation model for humanoid robots
-- **[Nvidia GR00T N1.5](https://research.nvidia.com/labs/gear/gr00t-n1_5/)** - Improved architecture and data
-- **[Nvidia GR00T N1.6](https://research.nvidia.com/labs/gear/gr00t-n1_6/)** - Latest version
+- **[Nvidia GR00T](https://research.nvidia.com/labs/gear/gr00t-n1_6/)** - Foundation model for humanoid robots (latest: N1.6)
 - **[Amazon DeepFleet](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model)** - Foundation model for robotic fleet (1M+ robots)
 
 ---
