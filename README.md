@@ -25,9 +25,6 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### Academic Papers
 
-- **[Physical Intelligence π0](https://arxiv.org/abs/2410.24164)** - Vision-Language-Action flow model for general robot control (10k+ hours robot data)
-- **[Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054)** - VLA model with open-world generalization for mobile manipulation
-- **[OpenPi](https://github.com/Physical-Intelligence/openpi)** - Official implementation and checkpoints from Physical Intelligence
 - **[RT-2: Vision-Language-Action Models](https://robotics-transformer2.github.io/)** - Google DeepMind's VLA model
 - **[RT-1: Robotics Transformer](https://arxiv.org/abs/2212.06817)** - Robotics Transformer for real-world control at scale
 - **[Open X-Embodiment](https://robotics-transformer-x.github.io/)** - RT-X: Generalist robot policies from 22 diverse platforms
@@ -38,13 +35,15 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### Industry Models
 
-- **[Gemini Robotics](https://deepmind.google/models/gemini-robotics/)** - Google's Gemini for robotics, brings multimodal reasoning to physical world
+- **[Physical Intelligence π0](https://arxiv.org/abs/2410.24164)** - Vision-Language-Action flow model for general robot control (10k+ hours robot data)
+- **[Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054)** - VLA model with open-world generalization for mobile manipulation
+- **[OpenPi](https://github.com/Physical-Intelligence/openpi)** - Official implementation from Physical Intelligence
+- **[Gemini Robotics](https://deepmind.google/models/gemini-robotics/)** - Google's Gemini for robotics
 - **[Gemini Robotics-ER 1.5](https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/)** - Embodied reasoning model for planning in physical environments
 - **[Nvidia GR00T N1](https://research.nvidia.com/labs/gear/gr00t/)** - Foundation model for humanoid robots
 - **[Nvidia GR00T N1.5](https://research.nvidia.com/labs/gear/gr00t-n1_5/)** - Improved architecture and data
 - **[Nvidia GR00T N1.6](https://research.nvidia.com/labs/gear/gr00t-n1_6/)** - Latest version
 - **[Amazon DeepFleet](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model)** - Foundation model for robotic fleet (1M+ robots)
-- **[Physical Intelligence](https://www.pi.website/)** - Company building π0, π0.5
 
 ---
 
