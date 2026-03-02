@@ -8,96 +8,88 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ## Contents
 
-- [Papers](#papers)
-- [Frameworks & Libraries](#frameworks--libraries)
+- [Foundation Models (VLA)](#foundation-models-vla)
+- [3D Computer Vision for Robotics](#3d-computer-vision-for-robotics)
+- [World Models & Simulation](#world-models--simulation)
 - [Datasets](#datasets)
 - [Simulators](#simulators)
-- [Projects](#projects)
+- [Frameworks & Libraries](#frameworks--libraries)
+- [Robot Platforms](#robot-platforms)
+- [Research Labs](#research-labs)
 - [Courses & Tutorials](#courses--tutorials)
 - [Community](#community)
 
 ---
 
-## Papers
+## Foundation Models (VLA)
 
-### Foundation Models for Robotics
+### Academic Papers
 
 - **[Physical Intelligence π0](https://arxiv.org/abs/2410.24164)** - Vision-Language-Action flow model for general robot control (10k+ hours robot data)
 - **[Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054)** - VLA model with open-world generalization for mobile manipulation
 - **[OpenPi](https://github.com/Physical-Intelligence/openpi)** - Official implementation and checkpoints from Physical Intelligence
-- **[RT-2: Vision-Language-Action Models](https://robotics-transformer2.github.io/)** - Google DeepMind's VLA model that learns from web and robotics data
-- **[RT-1: Robotics Transformer](https://arxiv.org/abs/2211.09417)** - Model trained on multi-task robot demonstrations
-- **[Open X-Embodiment](https://robotics-transformer-x.github.io/)** - RT-X: Generalist robot policies from 22 diverse robot platforms
-- **[PaLM-E: An Embodied Multimodal Language Model](https://palm-e.github.io)** - Google's embodied multimodal language model
-- **[Octo: Open-Source Generalist Robot Policy](https://octo-models.github.io/)** - Transformer-based diffusion policy pretrained on 800k robot episodes
+- **[RT-2: Vision-Language-Action Models](https://robotics-transformer2.github.io/)** - Google DeepMind's VLA model
+- **[RT-1: Robotics Transformer](https://arxiv.org/abs/2211.09417)** - Multi-task robot demonstrations
+- **[Open X-Embodiment](https://robotics-transformer-x.github.io/)** - RT-X: Generalist robot policies from 22 diverse platforms
+- **[PaLM-E](https://palm-e.github.io)** - Google's embodied multimodal language model
+- **[Octo](https://octo-models.github.io/)** - Open-source generalist robot policy (800k robot episodes)
+- **[LingBot-VLA](https://arxiv.org/abs/2601.18692)** - VLA trained on 20k hours real robot data, 261 samples/sec
+- **[Recursive Belief VLA](https://arxiv.org/abs/2602.20659)** - Belief-centric architecture tracking task progress
 
-### Industry & Research Labs
+### Industry Models
 
-- **[Nvidia GEAR Lab](https://research.nvidia.com/labs/gear/)** - Generalist Embodied Agent Research building foundation models for embodied agents
-- **[GR00T N1](https://research.nvidia.com/labs/gear/gr00t/)** - Nvidia's general-purpose foundation model for humanoid robots
-- **[GR00T N1.5](https://research.nvidia.com/labs/gear/gr00t-n1_5/)** - Upgraded version with improved architecture and data
-- **[GR00T N1.6](https://research.nvidia.com/labs/gear/gr00t-n1_6/)** - Latest version of GR00T foundation model
-- **[Amazon DeepFleet](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model)** - Amazon's foundation model for robotic fleet coordination (1M+ robots)
-- **[Amazon Blue Jay](https://www.aboutamazon.com/news/operations/amazon-delivering-future-2025-online-shopping-speed-delivery)** - Amazon's latest robotics and AI technology
-- **[Physical Intelligence](https://www.pi.website/)** - Company building generalist robot models (π0, π0.5)
-
-### World Models & Simulation
-
-- **[GAIA-1: Generative World Model](https://arxiv.org/abs/2309.17080)** - Wayve's generative world model for autonomous driving
-- **[Scaling GAIA-1](https://wayve.ai/thinking/scaling-gaia-1/)** - 9-billion parameter version
-- **[DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176)** - World model for real-world robot learning
-- **[DreamerV2](https://arxiv.org/abs/2110.09516)** - Model-based RL with recurrent world models
-
-### Manipulation & Grasping
-
-- **[Universal Manipulation Interface (UMI)](https://github.com/real-stanford/universal_manipulation_interface)** - Stanford's in-the-wild robot teaching
-- **[UniGrasp](https://arxiv.org/abs/2208.11508)** - Learning universal grasping policies
-
-### Navigation & Locomotion
-
-- **[Learning to Walk in Minutes](https://arxiv.org/abs/2304.01189)** - MIT's quadruped robot learning with rapid motor adaptation
-- **[ANYmal](https://anymal.mit.edu)** - MIT's ANYmal quadruped robot research
-
-### Multi-Modal Understanding
-
-- **[VoxPoser: Composable 3D Value Maps](https://voxposer.github.io)** - Zero-shot robotic manipulation with VLMs
+- **[Nvidia GR00T N1](https://research.nvidia.com/labs/gear/gr00t/)** - Foundation model for humanoid robots
+- **[Nvidia GR00T N1.5](https://research.nvidia.com/labs/gear/gr00t-n1_5/)** - Improved architecture and data
+- **[Nvidia GR00T N1.6](https://research.nvidia.com/labs/gear/gr00t-n1_6/)** - Latest version
+- **[Amazon DeepFleet](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model)** - Foundation model for robotic fleet (1M+ robots)
+- **[Physical Intelligence](https://www.pi.website/)** - Company building π0, π0.5
 
 ---
 
-## Frameworks & Libraries
+## 3D Computer Vision for Robotics
 
-### Agent Frameworks
+### Neural Radiance Fields & 3D Gaussian Splatting
 
-- [RAI](https://github.com/RobotecAI/rai) - Vendor-agnostic agentic framework for Physical AI using ROS 2
-- [LangChain](https://github.com/langchain-ai/langchain) - Building agents with external tools
-- [OpenHands](https://github.com/OpenHands/OpenHands) - AI-driven development agent
-- [OpenClaw](https://github.com/openclaw/openclaw) - Personal AI assistant for any OS
+- **[Awesome 3D Gaussian Splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)** - Curated paper list
+- **[2025 GS Paper List](https://github.com/Lee-JaeWon/2025-Arxiv-Paper-List-Gaussian-Splatting)** - Updated daily
+- **[NeRF + GS for Robotics](https://openaccess.thecvf.com/content/ICCV2025/papers/Fang_NeRF_Is_a_Valuable_Assistant_for_3D_Gaussian_Splatting_ICCV_2025_paper.pdf)** - ICCV 2025 paper
 
-### ROS & Robotics
+### Point Cloud & Depth Estimation
 
-- [copper-rs](https://github.com/copper-project/copper-rs) - Operating system for robots in Rust (deterministic replay)
-- [ROS 2](https://docs.ros.org/en/humble/) - Robot Operating System 2
-- [ROS 2 AI](https://github.com/ros2/ros2_ai) - AI integration for ROS 2
+- **[Depth Anything](https://github.com/LiheYoung/Depth-Anything)** - Foundation model for monocular depth estimation
+- **[MiDaS](https://github.com/isl-org/MiDaS)** - Monocular depth estimation
+- **[3D Point Cloud Segmentation](https://www.mdpi.com/2227-7080/138/322)** - Survey on deep learning for 3D point clouds
 
-### Training & Fine-Tuning
+### Object Detection & Reconstruction
 
-- [LlamaFactory](https://github.com/hiyouga/LlamaFactory) - Unified fine-tuning of 100+ LLMs & VLMs
-- [LeRobot](https://github.com/huggingface/lerobot) - Making AI for robotics accessible with end-to-end learning
-- [Daydreamer](https://github.com/danijar/daydreamer) - World Models for Physical Robot Learning
+- **[Segment Anything Model (SAM)](https://github.com/facebookresearch/SegmentAnything)** - Meta's universal image segmentation
+- **[Grounded SAM 2](https://github.com/IDEA-Research/Grounded-SAM-2)** - SAM 2 for robotics
+- **[OpenScene](https://github.com/pengsongyou/OpenScene)** - Open-vocabulary 3D scene understanding
 
-### Perception
+---
 
-- [Grounded SAM 2](https://github.com/IDEA-Research/Grounded-SAM-2) - Segment Anything Model 2 for robotics
+## World Models & Simulation
+
+### Papers
+
+- **[GAIA-1](https://arxiv.org/abs/2309.17080)** - Wayve's generative world model for autonomous driving
+- **[Scaling GAIA-1](https://wayve.ai/thinking/scaling-gaia-1/)** - 9-billion parameter version
+- **[DayDreamer](https://arxiv.org/abs/2206.14176)** - World models for real-world robot learning
+- **[DreamerV2](https://arxiv.org/abs/2110.09516)** - Model-based RL with recurrent world models
+
+### Projects
+
+- **[Genesis](https://github.com/Genesis-Embodied-AI/Genesis)** - Generative world for general-purpose robotics
 
 ---
 
 ## Datasets
 
-- [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment) - 1M+ robot trajectories across 80+ embodiments
-- [BridgeData V2](https://github.com/rail-berkeley/bridge_data_v2) - Large-scale manipulation dataset from Berkeley RAIL
-- [CALVIN](https://github.com/Mees/calvin) - Multi-task manipulation benchmark
-- [ManiSkill](https://github.com/haosulab/ManiSkill) - SAPIEN-based manipulation skill benchmark
-- [RT-1 Dataset](https://blog.google/technology/ai/rt-1-robotics-transformer/) - Google's large-scale robot manipulation dataset
+- **[Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment)** - 1M+ robot trajectories, 80+ embodiments
+- **[BridgeData V2](https://github.com/rail-berkeley/bridge_data_v2)** - Large-scale manipulation (Berkeley RAIL)
+- **[CALVIN](https://github.com/Mees/calvin)** - Multi-task manipulation benchmark
+- **[ManiSkill](https://github.com/haosulab/ManiSkill)** - SAPIEN-based manipulation benchmark
+- **[RT-1 Dataset](https://blog.google/technology/ai/rt-1-robotics-transformer/)** - Google's robot manipulation
 
 ---
 
@@ -105,42 +97,70 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### General-Purpose
 
-- [Isaac Lab](https://github.com/NVIDIA-Isaac/IsaacLab) - NVIDIA's reference environment for robot learning
-- [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) - Generative world for general-purpose robotics
-- [MuJoCo](https://github.com/deepmind/mujoco) - Multi-Joint Dynamics with Contact
-- [PyBullet](https://github.com/bulletphysics/bullet3) - Physics simulation for robotics
-- [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) - Standard API for RL environments
+- **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)** - NVIDIA's GPU-accelerated robot learning
+- **[Isaac Lab Docs](https://developer.nvidia.com/isaac/lab)** - Documentation & tutorials
+- **[MuJoCo](https://github.com/deepmind/mujoco)** - Multi-Joint Dynamics with Contact
+- **[PyBullet](https://github.com/bulletphysics/bullet3)** - Physics simulation
+- **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** - Standard RL API
 
 ### Task-Specific
 
-- [Habitat](https://github.com/facebookresearch/habitat) - Embodied AI in simulated 3D environments
-- [iGibson](https://github.com/StanfordVL/iGibson) - Interactive Gibson benchmark
-- [SAPIEN](https://sapien.ucsd.edu) - Realistic physics and sensory simulation
-- [Webots](https://github.com/cyberbotics/webots) - Robot simulator
+- **[Habitat](https://github.com/facebookresearch/habitat)** - Embodied AI in 3D environments
+- **[iGibson](https://github.com/StanfordVL/iGibson)** - Interactive Gibson benchmark
+- **[SAPIEN](https://sapien.ucsd.edu)** - Realistic physics & sensory simulation
+- **[Webots](https://github.com/cyberbotics/webots)** - Robot simulator
 
 ---
 
-## Projects
+## Frameworks & Libraries
 
-### Humanoid & Quadruped Robots
+### Agent & AI Frameworks
+
+- [RAI](https://github.com/RobotecAI/rai) - Vendor-agnostic agentic framework for Physical AI (ROS 2)
+- [LangChain](https://github.com/langchain-ai/langchain) - Building agents with tools
+- [OpenHands](https://github.com/OpenHands/OpenHands) - AI-driven development agent
+- [OpenClaw](https://github.com/openclaw/openclaw) - Personal AI assistant
+
+### ROS & Robotics
+
+- [copper-rs](https://github.com/copper-project/copper-rs) - OS for robots in Rust (deterministic replay)
+- [ROS 2](https://docs.ros.org/en/humble/) - Robot Operating System 2
+- [ROS 2 AI](https://github.com/ros2/ros2_ai) - AI integration for ROS 2
+
+### Training & Fine-Tuning
+
+- [LlamaFactory](https://github.com/hiyouga/LlamaFactory) - Unified fine-tuning of 100+ LLMs & VLMs
+- [LeRobot](https://github.com/huggingface/lerobot) - End-to-end robot learning
+- [Daydreamer](https://github.com/danijar/daydreamer) - World models for robot learning
+- [LeRobot Tutorial](https://huggingface.co/learn/lerobot) - Hugging Face course
+
+---
+
+## Robot Platforms
+
+### Humanoid & Quadruped
 
 - [Unitree Robotics](https://github.com/unitreerobotics) - Quadruped robots (Go1, Go2, Ali)
-- [Agility Robotics - Digit](https://github.com/AgilityRobotics) - Humanoid robot for logistics
-- [Apollo Robot](https://apollo.auto/developer) - Apollo humanoid robot
-- [Amazon Robotics](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model) - 1M+ robots deployed, DeepFleet foundation model
+- [Agility Robotics - Digit](https://github.com/AgilityRobotics) - Humanoid for logistics
+- [Apollo Robot](https://apollo.auto/developer) - Apollo humanoid
+- [ANYbotics](https://www.anybotics.com/robotics/anymal/) - ANYmal quadruped
 
 ### Mobile Manipulation
 
-- [Mobile ALOHA](https://mobile-aloha.github.io) - Stanford's mobile manipulation research with low-cost hardware
+- [Mobile ALOHA](https://mobile-aloha.github.io) - Stanford's low-cost mobile manipulation
+- [Amazon Robotics](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model) - 1M+ robots deployed
 
-### Research Labs
+---
 
+## Research Labs
+
+- [Nvidia GEAR Lab](https://research.nvidia.com/labs/gear/) - Generalist Embodied Agent Research
+- [Physical Intelligence](https://www.pi.website/) - Generalist robot foundation models
 - [Stanford RISELab](https://github.com/rise-lab-skku) - Real-time intelligent systems
 - [MIT CSAIL](https://csail.mit.edu) - Computer Science and AI Lab
 - [Google DeepMind Robotics](https://research.google/robotics/) - Robotics research
 - [Berkeley RAIL Lab](https://rail-berkeley.github.io/) - Robot Autonomy and Interactive Learning
-- [Nvidia GEAR Lab](https://research.nvidia.com/labs/gear/) - Generalist Embodied Agent Research
-- [Physical Intelligence](https://www.pi.website/) - Building generalist robot foundation models
+- [Stanford VL](https://github.com/StanfordVL) - Vision & Learning Lab
 
 ---
 
@@ -148,39 +168,33 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### University Courses
 
-- [Stanford CS 224R: Machine Learning for Robots](https://cs224r.stanford.edu) - Deep dive into robot learning
-- [MIT Foundation Models & Decision Making](https://ocw.mit.edu/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/) - MIT OpenCourseWare on foundation models
+- [Stanford CS 224R: Machine Learning for Robots](https://cs224r.stanford.edu)
+- [MIT Foundation Models & AI](https://ocw.mit.edu/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/)
 
 ### Online Resources
 
-- [Physical AI for Science](https://github.com/labclaw/awesome-physical-ai-for-science) - AI in scientific discovery
-- [Awesome 3D Gaussian Splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting) - 3D GS for robotics
-
-### Hands-On Tutorials
-
-- [Isaac Lab Documentation](https://developer.nvidia.com/isaac/lab) - NVIDIA Isaac Lab tutorials
-- [Isaac Lab GitHub](https://github.com/isaac-sim/IsaacLab) - Source code and examples
-- [LeRobot Tutorial](https://huggingface.co/learn/lerobot) - Hugging Face LeRobot course
+- [Physical AI for Science](https://github.com/labclaw/awesome-physical-ai-for-science)
+- [Isaac Lab Documentation](https://developer.nvidia.com/isaac/lab)
 
 ---
 
 ## Community
 
-### Forums & Discussions
+### Forums
 
-- [ROS Discourse](https://discourse.ros.org) - ROS community
-- [r/robotics](https://reddit.com/r/robotics) - Reddit robotics
-- [r/ROS](https://reddit.com/r/ROS) - Robot Operating System community
-- [r/MachineLearning](https://reddit.com/r/MachineLearning) - Machine learning discussions
+- [ROS Discourse](https://discourse.ros.org)
+- [r/robotics](https://reddit.com/r/robotics)
+- [r/ROS](https://reddit.com/r/ROS)
+- [r/MachineLearning](https://reddit.com/r/MachineLearning)
 
-### Conferences & Events
+### Conferences
 
 - [CoRL](https://www.robot-learning.org) - Conference on Robot Learning
-- [ICRA](https://www.icra2025.org) - International Conference on Robotics and Automation
+- [ICRA](https://www.icra2025.org) - Robotics and Automation
 - [IROS](https://www.iros2025.org) - Intelligent Robots and Systems
 - [RSS](https://www.robotics-science.org) - Robotics: Science and Systems
 
-### Newsletters
+### News
 
 - [The Robot Report](https://www.therobotreport.com)
 - [IEEE Spectrum Robotics](https://spectrum.ieee.org/robotics)
@@ -189,22 +203,13 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ## Contributing
 
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting PRs.
-
-### Adding Resources
-
-1. Fork the repository
-2. Add your resource to the appropriate section
-3. Ensure links are working and include brief descriptions
-4. Submit a PR with a clear description
+Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting PRs.
 
 ---
 
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
 
 ---
 
