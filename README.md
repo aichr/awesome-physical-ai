@@ -1,6 +1,4 @@
-# Awesome Physical AI
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Physical AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Star History](https://img.shields.io/badge/Star%20History-⌛+gold?style=flat&logo=github)](https://star-history.com/#aichr/awesome-physical-ai)
 
 Curated resources for Physical AI — where robotics, machine learning, and embodied intelligence converge to build intelligent physical systems.
@@ -21,8 +19,6 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 - [Community](#community)
 - [Legend](#legend)
 - [Star History](#star-history)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -34,17 +30,16 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 - [Physical Intelligence π0](https://arxiv.org/abs/2410.24164) - VLA flow model with 10k+ hours robot data. Code: [openpi](https://github.com/Physical-Intelligence/openpi)
 - [Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054) - VLA with open-world generalization.
 - [Gemini Robotics](https://deepmind.google/models/gemini-robotics/) - Google's multimodal reasoning for robots.
-- [Amazon DeepFleet](https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model) - Fleet coordination for 1M+ robots.
 
 ### Academic Papers
 
 - **RT-2** - VLA model learning from web and robotics data. [Demo](https://robotics-transformer2.github.io/)
 - **RT-1** - Robotics Transformer for real-world control. [Paper](https://arxiv.org/abs/2212.06817)
-- **Open X-Embodiment** - RT-X: Generalist policies from 22 platforms. [Page](https://robotics-transformer-x.github.io/)
-- **PaLM-E** - Embodied multimodal language model. [Page](https://palm-e.github.io)
-- **Octo** - Open-source diffusion policy with 800k episodes. [Page](https://octo-models.github.io/) [Code](https://github.com/octo-models/octo)
-- **LingBot-VLA** - Trained on 20k hours real robot data, 261 samples/sec. [Paper](https://arxiv.org/abs/2601.18692)
-- **Recursive Belief VLA** - Belief-centric architecture for task tracking. [Paper](https://arxiv.org/abs/2602.20659)
+- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - RT-X: Generalist policies from 22 platforms.
+- [PaLM-E](https://palm-e.github.io) - Embodied multimodal language model.
+- [Octo](https://octo-models.github.io/) - Open-source diffusion policy with 800k episodes. Code: [octo](https://github.com/octo-models/octo)
+- [LingBot-VLA](https://arxiv.org/abs/2601.18692) - Trained on 20k hours real robot data, 261 samples/sec.
+- [Recursive Belief VLA](https://arxiv.org/abs/2602.20659) - Belief-centric architecture for task tracking.
 
 ---
 
@@ -63,29 +58,27 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 
 ### Object Detection & Segmentation
 
-- **SAM 3** - Segment Anything with concepts. [Paper](https://arxiv.org/abs/2511.16719) [Code](https://github.com/facebookresearch/segment-anything-3)
-- **SAM 3D** - Segment Anything in 3D scenes. [Paper](https://arxiv.org/abs/2306.03908)
-- **Grounded SAM 2** - For robotics. [Code](https://github.com/IDEA-Research/Grounded-SAM-2)
+- [SAM 3](https://arxiv.org/abs/2511.16719) - Segment Anything with concepts. Code: [segment-anything-3](https://github.com/facebookresearch/segment-anything-3)
+- [SAM 3D](https://arxiv.org/abs/2306.03908) - Segment Anything in 3D scenes.
+- [Grounded SAM 2](https://github.com/IDEA-Research/Grounded-SAM-2) - For robotics.
 
 ---
 
 ## Datasets
 
-- **Open X-Embodiment** - 1M+ trajectories, 80+ embodiments. [GitHub](https://github.com/google-deepmind/open_x_embodiment)
-- **BridgeData V2** - Large-scale manipulation from Berkeley. [GitHub](https://github.com/rail-berkeley/bridge_data_v2)
-- **ManiSkill** - SAPIEN manipulation benchmark. [GitHub](https://github.com/haosulab/ManiSkill)
-- **CALVIN** - Multi-task manipulation. [GitHub](https://github.com/Mees/calvin)
-- **RT-1 Dataset** - Google's robot data. [Blog](https://blog.google/technology/ai/rt-1-robotics-transformer/)
+- [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment) - 1M+ trajectories, 80+ embodiments.
+- [BridgeData V2](https://github.com/rail-berkeley/bridge_data_v2) - Large-scale manipulation from Berkeley.
+- [ManiSkill](https://github.com/haosulab/ManiSkill) - SAPIEN manipulation benchmark.
+- [CALVIN](https://github.com/Mees/calvin) - Multi-task manipulation.
+- [RT-1 Dataset](https://blog.google/technology/ai/rt-1-robotics-transformer/) - Google's robot data.
 
 ---
 
 ## Benchmarks
 
-- **VLABench** - Language-conditioned manipulation benchmark for VLAs. [Page](https://vlabench.github.io/)
-- **LIBERO** - Benchmark for robot manipulation. [Page](https://libero-robot.github.io/)
-- **RoboTwin** - Twin benchmark for VLA training. [Paper](https://arxiv.org/pdf/2509.09674)
-- **ManiSkill** - Manipulation skill evaluation. [GitHub](https://github.com/haosulab/ManiSkill)
-- **CALVIN** - Multi-task benchmark. [GitHub](https://github.com/Mees/calvin)
+- [VLABench](https://vlabench.github.io/) - Language-conditioned manipulation benchmark for VLAs.
+- [LIBERO](https://libero-robot.github.io/) - Benchmark for robot manipulation.
+- [RoboTwin](https://arxiv.org/pdf/2509.09674) - Twin benchmark for VLA training.
 
 ---
 
@@ -93,10 +86,10 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 
 ### General-Purpose
 
-- **Isaac Lab** - NVIDIA GPU-accelerated robot learning. [GitHub](https://github.com/isaac-sim/IsaacLab) [Docs](https://developer.nvidia.com/isaac/lab)
-- **Genesis** - Generative world for robotics. [GitHub](https://github.com/Genesis-Embodied-AI/Genesis)
-- **MuJoCo** - Multi-Joint Dynamics with Contact. [GitHub](https://github.com/deepmind/mujoco)
-- **PyBullet** - Physics simulation. [GitHub](https://github.com/bulletphysics/bullet3)
+- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) - NVIDIA GPU-accelerated robot learning. Docs: [isaac/lab](https://developer.nvidia.com/isaac/lab)
+- [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) - Generative world for robotics.
+- [MuJoCo](https://github.com/deepmind/mujoco) - Multi-Joint Dynamics with Contact.
+- [PyBullet](https://github.com/bulletphysics/bullet3) - Physics simulation.
 - **Gymnasium** - Standard RL API. [GitHub](https://github.com/Farama-Foundation/Gymnasium)
 
 ### Task-Specific
@@ -252,7 +245,6 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=aichr/awesome-physical-ai&type=Date)](https://star-history.com/#aichr/awesome-physical-ai)
 
 ---
 
@@ -261,7 +253,4 @@ Curated resources for Physical AI — where robotics, machine learning, and embo
 Contributions welcome. Please read the [contributing guidelines](CONTRIBUTING.md) before submitting PRs.
 
 ---
-
-## License
-
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
