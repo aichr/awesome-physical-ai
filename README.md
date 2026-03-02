@@ -161,7 +161,7 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 - [Physical Intelligence](https://www.pi.website/) - Generalist robot foundation models
 - [Stanford RISELab](https://github.com/rise-lab-skku) - Real-time intelligent systems
 - [MIT CSAIL](https://csail.mit.edu) - Computer Science and AI Lab
-- [Google DeepMind Robotics](https://research.google/robotics/) - Robotics research
+- [Google DeepMind](https://deepmind.google/) - Main research site
 - [Berkeley RAIL Lab](https://rail-berkeley.github.io/) - Robot Autonomy and Interactive Learning
 - [Stanford VL](https://github.com/StanfordVL) - Vision & Learning Lab
 
