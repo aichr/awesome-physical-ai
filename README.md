@@ -64,7 +64,8 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### Object Detection & Reconstruction
 
-- **[Segment Anything Model (SAM)](https://github.com/facebookresearch/SegmentAnything)** - Meta's universal image segmentation
+- **[SAM 3](https://arxiv.org/abs/2511.16719)** - Segment Anything Model 3 with concept-based detection, segmentation, and tracking
+- **[SAM 3D](https://arxiv.org/abs/2306.03908)** - Segment Anything in 3D scenes, extends 2D segmentation to point clouds
 - **[Grounded SAM 2](https://github.com/IDEA-Research/Grounded-SAM-2)** - SAM 2 for robotics
 - **[OpenScene](https://github.com/pengsongyou/OpenScene)** - Open-vocabulary 3D scene understanding
 
