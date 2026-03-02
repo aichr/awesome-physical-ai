@@ -38,6 +38,8 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 
 ### Industry Models
 
+- **[Gemini Robotics](https://deepmind.google/models/gemini-robotics/)** - Google's Gemini for robotics, brings multimodal reasoning to physical world
+- **[Gemini Robotics-ER 1.5](https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/)** - Embodied reasoning model for planning in physical environments
 - **[Nvidia GR00T N1](https://research.nvidia.com/labs/gear/gr00t/)** - Foundation model for humanoid robots
 - **[Nvidia GR00T N1.5](https://research.nvidia.com/labs/gear/gr00t-n1_5/)** - Improved architecture and data
 - **[Nvidia GR00T N1.6](https://research.nvidia.com/labs/gear/gr00t-n1_6/)** - Latest version
