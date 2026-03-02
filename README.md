@@ -29,7 +29,7 @@ Physical AI refers to AI systems that can perceive, reason about, and interact w
 - **[Physical Intelligence π0.5](https://arxiv.org/abs/2504.16054)** - VLA model with open-world generalization for mobile manipulation
 - **[OpenPi](https://github.com/Physical-Intelligence/openpi)** - Official implementation and checkpoints from Physical Intelligence
 - **[RT-2: Vision-Language-Action Models](https://robotics-transformer2.github.io/)** - Google DeepMind's VLA model
-- **[RT-1: Robotics Transformer](https://arxiv.org/abs/2211.09417)** - Multi-task robot demonstrations
+- **[RT-1: Robotics Transformer](https://arxiv.org/abs/2212.06817)** - Robotics Transformer for real-world control at scale
 - **[Open X-Embodiment](https://robotics-transformer-x.github.io/)** - RT-X: Generalist robot policies from 22 diverse platforms
 - **[PaLM-E](https://palm-e.github.io)** - Google's embodied multimodal language model
 - **[Octo](https://octo-models.github.io/)** - Open-source generalist robot policy (800k robot episodes)
